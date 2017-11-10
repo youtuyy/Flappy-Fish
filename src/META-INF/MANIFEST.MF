@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1454038669189
+Build-Jdk: 1.7.0_06
+Built-By: scott
+Bundle-Description: A simple library for reading and writing CSV in Java
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: opencsv
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-SymbolicName: com.opencsv
+Bundle-Version: 3.7.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.opencsv;version="3.7";uses:="com.opencsv.enums",com.
+ opencsv.bean;version="3.7";uses:="com.opencsv",com.opencsv.enums;versio
+ n="3.7",com.opencsv.stream.reader;version="3.7"
+Import-Package: com.opencsv;version="[3.7,4)",com.opencsv.enums;version=
+ "[3.7,4)",com.opencsv.stream.reader;version="[3.7,4)",org.apache.common
+ s.lang3;version="[3.3,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326
